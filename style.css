@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #cad2c5;
+}
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contents {
+    margin-top: 20px;
+    padding: 5px 0px 30px 0px;
+    background-color: #FFF;
+    min-width: 350px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.content--counter {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+.content--buttons {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.content--buttons input {
+    text-decoration: none;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    margin: 4px;
+    padding: 8px 10px;
+    color: #FFF;
+    cursor: pointer;
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+    transition: all 0.2s;
+}
+input:active {
+    transform: scale(0.95);
+
+}
+input:disabled {
+    transform: scale(1);
+    background-color: #cad2c5;
+    color: #cad2c5
+}
+.btnStart {
+    background-color: #3c9214;
+}
+.btnPause {
+    background-color: #FF0000;
+}
+.btnReset {
+    background-color: #FF8C00;
+}
